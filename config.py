@@ -1,4 +1,5 @@
 import os
+import psycopg2
 #project_dir = os.path.dirname(os.path.abspath(__file__))
 #database_file = "mysql://username:password@localhost/{}".format(os.path.join(project_dir, "dbname"))
 
