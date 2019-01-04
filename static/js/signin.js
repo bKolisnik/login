@@ -4,8 +4,9 @@ $(document).ready(function() {
 
 
 	$('#SignUp').click(function(){
-   		window.location.href='http://localhost:5000/signup';
-	})
+   		//window.location.href='http://localhost:5000/signup';
+   		window.location.href='/signup'
+	});
 
 	/*
 	let signupbutton = document.getElementById("SignIn");

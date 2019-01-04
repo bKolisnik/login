@@ -4,7 +4,8 @@ $(document).ready(function() {
 
 
 	$('#SignOut').click(function(){
-   		window.location.href='http://localhost:5000/logout';
+   		//window.location.href='http://localhost:5000/logout';
+   		window.location.href='/logout'
 	})
 	
 });
